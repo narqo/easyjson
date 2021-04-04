@@ -3,3 +3,4 @@ all:
 	go test -benchmem -tags use_ffjson -bench .
 	go test -benchmem -tags use_jsoniter -bench .
 	go test -benchmem -tags use_codec -bench .
+	go test -benchmem -tags use_segmentio -bench .
